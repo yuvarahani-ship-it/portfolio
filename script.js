@@ -48,7 +48,7 @@ if (certsBox) {
     const card = document.createElement('div');
     card.className = 'cert-card';
     card.innerHTML = `
-      <img src="certificates/certificate${n}.jpg" alt="Certificate ${n}" onerror="this.style.opacity='0.15'">
+      <img src="certificates/certificate${n}.jpeg" alt="Certificate ${n}" onerror="this.style.opacity='0.15'">
       <div class="cert-card-body">
         <p class="num">${num} · ${c.type}</p>
         <h4>${c.title}</h4>
