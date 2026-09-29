@@ -37,12 +37,12 @@ const certificates = [
   { title: "NPTEL — IoT",               sub: "Internet of Things",                       type: "Certification" },
   { title: "NPTEL — Data Analytics",    sub: "Data Analytics with Python",               type: "Certification" },
   { title: "Industrial Visit",          sub: "KGISL Microcollege — Networking Training", type: "Industrial Visit" },
-  { title: "Japanese — N4 Level",       sub: "Japanese language course",                 type: "Language" }
+  { title: "Japanese — N5 Level",       sub: "Japanese language course",                 type: "Language" }
 ];
 
 const certsBox = document.getElementById('certsScroll');
 if (certsBox) {
-  const exts = ['jpeg', 'jpg', 'png', 'JPG', 'JPEG', 'PNG'];
+  const exts = ['jpeg', 'jpeg', 'jpeg', 'jpeg', 'jpeg', 'jpeg'];
   certificates.forEach((c, i) => {
     const n = i + 1;
     const num = String(n).padStart(2, '0');
